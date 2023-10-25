@@ -1,19 +1,20 @@
 import React from "react";
+import PropTypes from "prop-types";
 
 class ClassComponent extends React.Component {
-      state = {
-      value: 0
-    
-  }
+  state = {
+    value: 0,
+  };
+  // tombol handleplus
   handlePlus = () => {
     this.setState({ value: this.state.value + 1 });
-  }
-
+  };
+  // tombol handleminus
   handleMinus = () => {
-    if(this.state.value > 0) {
+    if (this.state.value > 0) {
       this.setState({ value: this.state.value - 1 });
     }
-  }
+  };
   render() {
     return (
       <div>
@@ -27,4 +28,7 @@ class ClassComponent extends React.Component {
   }
 }
 
+ClassComponent.propTypes = {
+  nama: PropTypes.string.isRequired,
+};
 export default ClassComponent;
