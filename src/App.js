@@ -1,9 +1,12 @@
-import Komponen from "./Materi/Komponen";
+// import Komponen from "./Materi/Komponen";
+// import Styling from "./Materi/styling";
+// import Styled from "./Materi/styling/Styled";
+import Bootstrap from "./Materi/styling/Bootstrap";
 
 function App() {
   return (
     <div className="App">
-    <Komponen/>
+      <Bootstrap />
     </div>
   );
 }

@@ -19,7 +19,9 @@ class ClassComponent extends React.Component {
     return (
       <div>
         <h1>Komponen ini dibuat dengan class Component</h1>
+        <p>nama: PropTypes.number.isRequired, nama: PropTypes.string.isRequired,</p>
         <h2>Hello {this.props.nama}</h2>
+        <h3>Membuat Tombol pada class component </h3>
         <button onClick={this.handleMinus}>-</button>
         <span> {this.state.value} </span>
         <button onClick={this.handlePlus}>+</button>
