@@ -5,7 +5,7 @@ import { Container, Nav, Navbar } from "react-bootstrap";
 export default class Bootstrap extends React.Component {
   render() {
     return (
-      <>
+      <div>
         <Navbar bg="dark" data-bs-theme="dark">
           <Container>
             <Navbar.Brand href="#home">Yulianto</Navbar.Brand>
@@ -30,7 +30,7 @@ export default class Bootstrap extends React.Component {
           <h3>My Bio</h3>
           <p> Saya Yulianto berasal dari Lampung.Saya 1 tahun lalu berprofesi sebagai Guru Swasta, Tenaga Admanistrasi Di Sekolah Swasta Selama lebih dari 3 tahun.</p>
         </div>
-      </>
+      </div>
     );
   }
 }
