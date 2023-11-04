@@ -4,12 +4,14 @@
 // import Bootstrap from "./Materi/styling/Bootstrap";
 // import Reusable from "./Materi/Reusable";
 // import Rendering from "./Materi/Rendering";
-import Form from "./Materi/Form";
+// import Form from "./Materi/Form";
+// import Lifecycle from "./Materi/Lifecycle";
+import Hooks from "./Materi/Hooks";
 
 function App() {
   return (
     <div className="App">
-      <Form />
+      <Hooks />
     </div>
   );
 }
